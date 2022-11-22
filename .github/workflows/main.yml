@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
-          heroku_api_key: ${{3ee3e5be-f36c-49bc-ad7f-cd843fd79571}}
-          heroku_app_name: 'auto-dep-test'
-          heroku_email: 'liumanpan1990@htomail.com'
+          heroku_api_key: 3ee3e5be-f36c-49bc-ad7f-cd843fd79571
+          heroku_app_name: auto-dep-test
+          heroku_email: liumanpan1990@htomail.com
